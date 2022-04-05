@@ -5,7 +5,7 @@ image:
   pullPolicy: IfNotPresent
 knativeDeploy: false
 service:
-  name: devops-paradox
+  name: app2
   type: NodePort
   externalPort: 80
   internalPort: 80
